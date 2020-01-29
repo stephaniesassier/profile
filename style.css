@@ -1,0 +1,99 @@
+body {
+  background-color: #f7f1ef;
+  font-family: 'cultive_mono', monospace;
+  color: #555358;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+h1 {
+  color: #555358;
+  font-size: 16px;
+  font-weight: 900;
+  padding-bottom: 16px;
+}
+
+h2 {
+  color: #85756e;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+img {
+  width: 100px;
+  box-shadow: 0px 0px 10px 0px #f7f1ef;
+}
+
+p {
+  color: #555358;
+  font-size: 16px;
+}
+
+a {
+  font-family: 'cultive_mono', serif;
+  text-decoration: none;
+  color: #e6beae;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #555358;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 10px;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline a {
+  font-size: 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-brown {
+  background-color: #85756e;
+  color: #f7f1ef;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
